@@ -1,0 +1,42 @@
+.rodape__contato div{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 64px;
+    background: #EAF2FD;
+}
+.rodape__contato__imagem{
+    width: 176px;
+    height: 50px;
+}
+.rodape__contato__formulario{
+    display: flex;
+    flex-direction: column;
+    
+}
+.rodape__contato__formulario label{
+    font-weight: 700;
+    line-height: 19px;
+    color: #464646;
+    
+}
+.rodape__contato__formulario input[submit]{
+    height: 51px;
+}
+#nome{
+    height: 56px;
+}
+#mensagem{
+    height: 82px;
+}
+.rodape__contato__lista{
+    margin-bottom: 0;
+}
+.rodape__contato__linha{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.rodape__contato__linha a{
+    text-decoration: none;
+    color: #464646
+}

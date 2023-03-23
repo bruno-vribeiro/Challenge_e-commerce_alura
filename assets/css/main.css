@@ -1,0 +1,74 @@
+.principal{
+    width: 88%;
+    margin: 0 auto;
+}
+.principal__secoes__titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 64px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+.principal__secoes__titulo a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Azul/100% */
+
+    color: #2A7AE4;
+    text-decoration: none;
+}
+.principal__secoes__produtos{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    margin-right: 16px;
+}
+.cards__nome{
+    margin: 8px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+.cards__nome+p{
+    margin: 8px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+.cards a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Azul/100% */
+
+    color: #2A7AE4;
+    text-decoration: none;
+}
