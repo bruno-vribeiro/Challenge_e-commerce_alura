@@ -20,14 +20,43 @@
     color: #464646;
     
 }
-.rodape__contato__formulario input[submit]{
+#mensagem+input{
+    color: #FFF;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    width: 182px;
     height: 51px;
+    background-color: #2A7AE4;
+    border: none;
 }
 #nome{
+    width: 560px;
     height: 56px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+#nome:focus{    
+    outline:0;   
+}
+#mensagem:focus{    
+    outline:0;   
+}
+#nome::placeholder{
+    position: absolute;
+    padding:5px;
+    
+}
+#mensagem::placeholder{
+    position: absolute;
+    padding:5px;
+    
 }
 #mensagem{
     height: 82px;
+    border: none;
+    margin-bottom: 16px;
 }
 .rodape__contato__lista{
     margin-bottom: 0;
@@ -39,4 +68,12 @@
 .rodape__contato__linha a{
     text-decoration: none;
     color: #464646
+}
+.rodape__footer{
+    color: #464646;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 32px 0;
 }
