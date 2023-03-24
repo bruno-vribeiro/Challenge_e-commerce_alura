@@ -1,0 +1,23 @@
+.cabecalho__principal__botao{
+    visibility: hidden;
+}
+.main__div{
+    width: 423px;
+    height: 291px;
+    margin: 0 auto;
+}
+.main__div form{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__div form label{
+    margin-bottom: 24.65px;
+    text-align: center;
+    
+    
+}
+.main__input{
+    height: 63.13px;
+    margin-bottom: 24.65px;
+}
