@@ -1,10 +1,14 @@
 .cabecalho__principal__botao{
     visibility: hidden;
 }
+main{
+    background: #E5E5E5;
+}
 .main__div{
     width: 423px;
     height: 291px;
     margin: 0 auto;
+    padding: 92px 0;
 }
 .main__div form{
     display: flex;
@@ -14,10 +18,38 @@
 .main__div form label{
     margin-bottom: 24.65px;
     text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* Preto/100% */
+
+    color: #464646;
     
     
 }
 .main__input{
     height: 63.13px;
     margin-bottom: 24.65px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.main__input::placeholder{
+    padding: 10px;
+}
+.main__input.submit{
+    background: #2A7AE4;
+    padding: 12px 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* Preto/branco */
+
+    color: #FFFFFF;
 }
