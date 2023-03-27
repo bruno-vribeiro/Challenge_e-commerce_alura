@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,6 +34,11 @@
       </div>
       <div class="header__banner">
         <img src="./assets/img/Hero.png" alt="banner do site" id="banner" />
+        <div id="textoBanner">
+          <span>Dezembro Promocional</span>
+          <p>Produtos selecionados com 33% de desconto</p>
+          <button><a href="#consoles">Ver consoles</a></button>
+        </div>
       </div>
     </header>
     <main class="principal">
@@ -103,7 +109,7 @@
       </section>
       <section class="principal__secoes">
         <div class="principal__secoes__titulo">
-          <h1>Consoles</h1>
+          <h1 id="consoles">Consoles</h1>
           <div>
             <a>Ver tudo</a>
             <img src="./assets/img/Vector1.png" alt="imagem de uma seta" />
@@ -258,13 +264,21 @@
           </ul>
           <form class="rodape__contato__formulario">
             <label>Fale conosco</label>
-            <input type="text" id="nome" placeholder="Nome" />
+            <input 
+            type="text" 
+            id="nome" 
+            placeholder="Nome" 
+            minlength="40" 
+            required
+            />
             <input
               type="text"
               id="mensagem"
-              placeholder="Escreva sua mensagem"
+              placeholder="Escreva sua mensagem" 
+              minlength="120" 
+              required
             />
-            <input type="submit" value="Enviar mensagem" />
+            <input type="submit" value="Enviar mensagem" data-falaConosco/>
           </form>
         </div>
       </section>
@@ -273,4 +287,5 @@
       </section>
     </footer>
   </body>
+  <script src="./assets/js/login.js"></script>
 </html>

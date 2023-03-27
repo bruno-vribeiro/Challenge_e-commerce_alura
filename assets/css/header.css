@@ -49,8 +49,53 @@
     line-height: 19px;
     text-decoration: none
 }
-
+.header__banner{
+    position: relative;
+}
 #banner{
     width: 100%;
+}
+#textoBanner{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+#textoBanner span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    /* identical to box height */
+
+
+    /* Preto/branco */
+
+    color: #FFFFFF;
+}
+#textoBanner p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    /* Preto/branco */
+
+    color: #FFFFFF;
+}
+
+#textoBanner button{
+    margin-top: 16px;
+    width: 182px;
+    height: 51px;
+    background-color: #2A7AE4;
+    border: none;
+}
+#textoBanner button a{
+    color: #FFF;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
 }
 
