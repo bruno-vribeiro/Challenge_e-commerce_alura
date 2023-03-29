@@ -28,12 +28,12 @@
       </header>
       <main>
         <div class="main__div">
-            <form action="">
+            <form data-form>
                 <label for="">
                   Iniciar Sessão
                 </label>
-                <input class="main__input" type="email" placeholder="Escreva seu email" required>
-                <input class="main__input" type="password" placeholder="Escreva sua senha" minlength="8" required>
+                <input class="main__input" type="email" id="email" placeholder="Escreva seu email" required>
+                <input class="main__input" id="senha" type="password" placeholder="Escreva sua senha" minlength="4" required>
                 <input class="main__input submit" type="submit" value="Entrar"></form>
         </div>
       </main>
@@ -78,5 +78,5 @@
         </section>
       </footer>
 </body>
-<script src="./service/autenticar.js"></script>
+<script src="./service/serviceUsuario.js"></script>
 </html>
