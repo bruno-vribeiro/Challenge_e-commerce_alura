@@ -1,10 +1,60 @@
 {
-    "usuario":[
-        {
-            "nome":"Bruno Ribeiro",
-            "senha":1234,
-            "email":"brunoribeiro@gmail.com",
-            "id":1
-        }
-    ]
+  "usuario": [
+    {
+      "nome": "Bruno Ribeiro",
+      "senha": 1234,
+      "email": "brunoribeiro@gmail.com",
+      "id": 1
+    }
+  ],
+  "produtos": [
+    {
+      "url": "./assets/img/produtos/produto1.png",
+      "categoria": "Star Wars",
+      "nome": "Produto Star wars",
+      "preco": "100.00",
+      "descricao": "Imagem do star wars",
+      "id": 1
+    },
+    {
+      "url": "./assets/img/produtos/produto2.png",
+      "categoria": "Star Wars",
+      "nome": "Thaynan barreto ribe",
+      "preco": "11133",
+      "descricao": "Imagem do star wars",
+      "id": 2
+    },
+    {
+      "url": "./assets/img/produtos/produto3.png",
+      "categoria": "Star Wars",
+      "nome": "Thaynan barreto ribe",
+      "preco": "222",
+      "descricao": "Imagem do star wars",
+      "id": 3
+    },
+    {
+      "url": "./assets/img/produtos/produto4.png",
+      "categoria": "Star Wars",
+      "nome": "Thaynan barreto ribe",
+      "preco": "555",
+      "descricao": "Imagem do star wars",
+      "id": 4
+    },
+    {
+      "url": "./assets/img/produtos/produto5.png",
+      "categoria": "Star Wars",
+      "nome": "peixes",
+      "preco": "20.00",
+      "descricao": "pexe",
+      "id": 5
+    },
+    {
+      "url": "./assets/img/produtos/produto6.png",
+      "categoria": "consoles",
+      "nome": "Produto XYZ",
+      "preco": "11.00",
+      "descricao": "produto a venda",
+      "id": 6
+    }
+  ]
 }

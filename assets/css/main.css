@@ -38,6 +38,10 @@
 .cards{
     margin-right: 16px;
 }
+.cards img{
+    width: 176px;
+    height: 175px;
+}
 .cards__nome{
     margin: 8px 0;
     font-weight: 500;

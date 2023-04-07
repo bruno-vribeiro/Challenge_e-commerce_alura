@@ -1,33 +1,46 @@
 const autenticado = ()=>
 {
-    return fetch(`http://localhost:3000/usuario`)
+    return fetch("http://localhost:3000/usuario")
+    .then(resposta=>{
+        return resposta.json()
+    })
+}
+ 
+const criaProdutos = (produto)=>
+{
+    return fetch(`http://localhost:3000/produtos/`,{
+        method:'POST',
+        headers:{
+            'Content-Type':'application/json'
+        },
+        body:JSON.stringify(produto)
+    })
+    .then(resposta=>{
+        if(!resposta.ok){
+            throw Error('não conseguiu')
+        }
+        else{
+            return resposta.body
+        }
+    })
+}
+
+const pegarProduto = ()=>{
+    return fetch("http://localhost:3000/produtos")
     .then(resposta=>{
         return resposta.json()
     })
 }
 
-const inputEmail = document.querySelector('#email')
-const inputSenha = document.querySelector('#senha')
-const formLogin = document.querySelector('[data-form]')
 
-formLogin.addEventListener('submit', (evento)=>{
-    evento.preventDefault()
 
-    autenticado()
-    .then((resposta=>{
-        const email = resposta[0].email;
-        const senha = resposta[0].senha;
+export const serviceConexao ={
+    autenticado,
+    criaProdutos,
+    pegarProduto
 
-        console.log(inputEmail.value)
-        console.log(inputSenha.value)
-        if(email==inputEmail.value && senha==inputSenha.value){
-        window.location.href='../adicionarProdutos.html'
-        }else{
-            console.log('falso')
-        }
-    }))
-    
-})
+}
+
 
 
 
